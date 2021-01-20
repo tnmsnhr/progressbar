@@ -1,0 +1,28 @@
+.progressbar {
+    position: relative;
+}
+
+.progressbar__content {
+    width:300px;
+    height:300px;
+    transform: rotate(90deg);
+}
+
+.progressbar__content--circle {
+    stroke:#0CBC9B;
+    stroke-width:7;
+    fill:transparent;
+    r:100;
+    cx:150;
+    cy:150;
+    transition: stroke-dashoffset 0.1s ease-in;
+}
+
+.percentage {
+    color: #0CBC9B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+}
